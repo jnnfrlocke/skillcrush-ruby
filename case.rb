@@ -1,0 +1,15 @@
+weather = "sunny"
+case (weather)
+when "sunny"
+    puts "Oh no, better grap your sunglasses so you don't get a headache!"
+when "cloudy"
+    puts "Ah, no sunglasses needed!"
+when "foggy"
+    puts "Be careful not to catch a chill from the damp air."
+when "rainy"
+    puts "You'll need your rain jacket and rain boots."
+when "freezing"
+    puts "Bundle up!"
+when "snowing"
+    puts "Stay warm and dry with your winter coat and boots."
+end
