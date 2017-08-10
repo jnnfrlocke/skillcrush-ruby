@@ -2,23 +2,7 @@ class Pet
 
 attr_accessor :name, :owner_name
 end
-# def set_name=(name)
-#         @name = name
-#     end
-    
-#     def get_name
-#         return @name
-#     end
 
-#     def set_owner_name=(owner_name)
-#         @owner = owner_name
-#     end
-
-#     def get_owner_name
-#         return @owner
-#     end
-
-#     end
 
 class Dog < Pet
 
