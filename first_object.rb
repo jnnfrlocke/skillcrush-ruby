@@ -4,7 +4,7 @@ def set_name=(name)
         @name = name
     end
     
-    def get_dog_name
+    def get_name
         return @name
     end
 
@@ -35,7 +35,7 @@ end
     end
 
 my_dog = Dog.new
-my_dog.set_name= "Ozzy"
+my_dog.set_name=("Ozzy")
 dog_name = my_dog.get_name
 
 male_cat = Cat.new
