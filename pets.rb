@@ -1,7 +1,7 @@
-class Ferret
- 
-	def set_name=(ferret_name)
-		@name = ferret_name
+class Pet
+
+	def set_name=(name)
+		@name = name
 	end
  
 	def get_name
@@ -15,30 +15,18 @@ class Ferret
 	def get_owner
 		return @owner_name
 	end
- 
+
+	end
+
+class Ferret < Pet
+
 	def squeal
 		return "squeeeeee"
 	end
  
 end
  
-class Chinchilla
- 
-	def set_name=(chinchilla_name)
-		@name = chinchilla_name
-	end
- 
-def get_name
-		return @name
-	end
-
-	def set_owner=(owner_name)
-		@owner_name = owner_name
-	end
- 
-	def get_owner
-		return @owner_name
-	end
+class Chinchilla < Pet
  
 	def squeek
 		return "eeeep"
@@ -46,24 +34,8 @@ def get_name
  
 end
  
-class Parrot
+class Parrot < Pet
  
-	def set_name=(parrot_name)
-		@name = parrot_name
-	end
- 
-	def get_name
-		return @name
-	end
- 
-	def set_owner=(owner_name)
-		@owner_name = owner_name
-	end
- 
-	def get_owner
-		return @owner_name
-    end
-    
     def tweet
 		return "tweeeeet"
 	end
