@@ -1,6 +1,7 @@
-class Dog
-    def set_dog_name=(dog_name)
-        @name = dog_name
+class Pet
+
+def set_name=(name)
+        @name = name
     end
     
     def get_dog_name
@@ -14,7 +15,18 @@ class Dog
     def get_owner_name
         return @owner
     end
+
+    end
+
+class Dog
+    
 end
+
+class Cat
+
+
+
+    end
 
 my_dog = Dog.new
 my_dog.set_dog_name= "Ozzy"
