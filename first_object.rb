@@ -35,6 +35,17 @@ end
     end
 
 my_dog = Dog.new
-my_dog.set_dog_name= "Ozzy"
-dog_name = my_dog.get_dog_name
-puts "#{dog_name} is my dog."
+my_dog.set_name= "Ozzy"
+dog_name = my_dog.get_name
+
+male_cat = Cat.new
+male_cat.set_name= "Ninja"
+# name = male_cat.get_name
+
+fem_cat = Cat.new
+fem_cat.set_name= "Persia"
+fem_cat_name = fem_cat.get_name
+
+puts "#{dog_name} is my dog and he says #{my_dog.sound}."
+puts "#{male_cat.get_name} is my male cat, and he says #{male_cat.sound}."
+puts "#{fem_cat_name} is my female cat and she says #{fem_cat.sound}."
