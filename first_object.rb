@@ -18,13 +18,19 @@ def set_name=(name)
 
     end
 
-class Dog
-    
+class Dog < Pet
+
+   def sound
+    return "roo" 
+   end
+
 end
 
-class Cat
+class Cat < Pet
 
-
+def sound
+    return "meao"
+end
 
     end
 
